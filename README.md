@@ -2,7 +2,7 @@
 
 _Note:_ _"yssh"_ stands for "Youtube Songs Separation Helper"
 
-This project helps me to automatically download songs from YouTube and generate their respective separate instruments tracks. This is done by using the library `Pytube` to download the audio files and `Spleeter` to automatically separate instrument tracks from the downloaded files.
+This project helps me to automatically download songs from YouTube and generate their respective separate instruments tracks. This is done by using the library [pytube](https://github.com/pytube/pytube) to download the audio files and [Spleeter](https://github.com/deezer/spleeter) to automatically separate instrument tracks from the downloaded files.
 
 # Usage 🛠
 You can run `pip install -r requirements.txt` to setup dependencies (check [requirements file](requirements.txt) to see the dependencies).
