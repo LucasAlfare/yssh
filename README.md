@@ -1,4 +1,6 @@
-# Youtube Song Separation Helper 👌
+# yssh 👌
+
+_Note:_ _"yssh"_ stands for "Youtube Songs Separation Helper"
 
 This project helps me to automatically download songs from YouTube and generate their respective separate instruments tracks. This is done by using the library `Pytube` to download the audio files and `Spleeter` to automatically separate instrument tracks from the downloaded files.
 
