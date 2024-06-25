@@ -9,7 +9,7 @@ You can run `pip install -r requirements.txt` to setup dependencies (check [requ
 
 After that, you need to add all the desired youtube URLs in a file called `inputs.txt` (same directory of the script). One URL by line, like following:
 
-Contents for `inputs.txt`:
+Example contents for `inputs.txt`:
 ```plain-text
 https://www.youtube.com/watch?v=kMxThvH-6Tw
 https://www.youtube.com/watch?v=7ObT7LQd6ls
