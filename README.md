@@ -17,4 +17,4 @@ https://www.youtube.com/watch?v=7ObT7LQd6ls
 
 Thats said, run `python main.py`, wait the process and enjoy the conversions. They will be placed in the directory `/separated`.
 
-⚠ _Quick note: the process is finished when console prompts the messa "`Finished all conversions of the videos from 'inputs.txt'.`"_
+⚠ _Quick note: the process is finished when console prompts the message "`Finished all conversions of the videos from 'inputs.txt'.`"_
