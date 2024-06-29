@@ -4,6 +4,7 @@ inputs.txt
 /raw
 /separated
 /pretrained_models
+/my_test
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
