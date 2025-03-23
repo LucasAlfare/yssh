@@ -7,7 +7,7 @@ This project helps to automatically download songs from YouTube and generate the
 ## Usage 🛠
 1. **Install Python**: Make sure you have Python 3.8 installed on your system. You can download it from [python.org](https://www.python.org/downloads/release/python-380/). Follow the installation instructions for your operating system. During installation, make sure to check the box to add Python to your PATH.
 
-2. **Download FFMPEG**: `Spleeter` uses `FFMPEG` to decode files, then you have to download it and add it to your `Environment Variables`, in order to be accessible in your system. You can get the pre-built executables of `FFMPEG` in this [link](https://www.gyan.dev/ffmpeg/builds/). Is important that you keep the executables called `ffmpeg.exe` and `ffprobe.exe` in you Path!
+2. **Download FFMPEG**: `Spleeter` uses `FFMPEG` to decode files, then you have to download it and add it to your `Environment Variables`, in order to be accessible in your system. You can get the pre-built executables of `FFMPEG` for Windows in this [link](https://www.gyan.dev/ffmpeg/builds/). For other Operatin Systems, check the [official `FFMPEG` project page](https://www.ffmpeg.org/download.html). Is important that you keep the executables called `ffmpeg.exe` and `ffprobe.exe` in you Path!
 
 3. **Set up dependencies**: Run `pip install -r requirements.txt` to install all the necessary dependencies. Check the [requirements file](requirements.txt) to see the dependencies.
 
