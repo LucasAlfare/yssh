@@ -1,8 +1,7 @@
 import os
-from pytube import YouTube, Stream
-from spleeter.separator import Separator
+from pytubefix import YouTube, Stream
 from spleeter.audio import Codec
-
+from spleeter.separator import Separator
 
 class DownloadedSongInfo:
     """
@@ -65,7 +64,7 @@ class SeparationInfo:
         return f'SeparationInfo(input_path="{self.input_path}", output_path="{self.output_path}", codec={self.codec})'
 
 
-def download_youtube_audio(url: str, output_path: str) -> DownloadedSongInfo:
+def download_youtube_audio(url: str, output_path: str) -> DownloadedSongInfo | None:
     """
     Downloads the audio from a YouTube video.
 
@@ -91,7 +90,7 @@ def download_youtube_audio(url: str, output_path: str) -> DownloadedSongInfo:
         return None
   
 
-def separate_4stems(input_path: str, output_path: str, codec: Codec = Codec.MP3) -> SeparationInfo:
+def separate_4stems(input_path: str, output_path: str, codec: Codec = Codec.MP3) -> SeparationInfo | None:
     """
     Separates the audio into 4 stems using Spleeter.
 

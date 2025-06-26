@@ -4,8 +4,12 @@
 
 This project helps to automatically download songs from YouTube and generate their respective separate instrument tracks. This is achieved using the library [pytube](https://github.com/pytube/pytube) to download the audio files and [Spleeter](https://github.com/deezer/spleeter) to automatically separate instrument tracks from the downloaded files.
 
+Is also important to say that spleeter repository seems not making new releases. So this can stop working in the future if spleeter package becomes unavailable.
+
+For the same reason, we need to use a older Python version, and other dependencies to make this stil works in new years. Check the [requirements file](requirements.txt) to see the dependencies.
+
 ## Usage 🛠
-1. **Install Python**: Make sure you have Python 3.8 installed on your system. You can download it from [python.org](https://www.python.org/downloads/release/python-380/). Follow the installation instructions for your operating system. During installation, make sure to check the box to add Python to your PATH.
+1. **Install Python**: Make sure you have Python `3.10` installed on your system. You can download it from [python.org](https://www.python.org/downloads/release/python-31011/). Follow the installation instructions for your operating system. During installation, make sure to check the box to add Python to your PATH.
 
 2. **Download FFMPEG**: `Spleeter` uses `FFMPEG` to decode files, then you have to download it and add it to your `Environment Variables`, in order to be accessible in your system. You can get the pre-built executables of `FFMPEG` for Windows in this [link](https://www.gyan.dev/ffmpeg/builds/). For other Operatin Systems, check the [official `FFMPEG` project page](https://www.ffmpeg.org/download.html). Is important that you keep the executables called `ffmpeg.exe` and `ffprobe.exe` in you Path!
 
@@ -19,5 +23,7 @@ This project helps to automatically download songs from YouTube and generate the
   ```
 
 4. **Run the script**: Run `python main.py`, wait for the process to complete, and enjoy the conversions. They will be placed in the `/separated` directory.
+
+In the frst time executing the script, it will take longer to run, because it will load a lot of configs and also it will download the models needed to separate stems.
 
   ⚠ _Quick note: the process is finished when console displays the message "`Finished all conversions of the videos from 'inputs.txt'.`"_

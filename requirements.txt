@@ -1,2 +1,4 @@
+numpy<2 # locking numpy to older versions because spleeter doesn't have ssupport for new versions
 spleeter
-pytube
+# pytube # pytube seems broke
+pytubefix
